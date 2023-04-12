@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "${JOB_BASE_NAME}",
+    "environment": "QA.GURU",
+    "comment": "@rustamd74",
+    "reportLink": "${BUILD_URL}",
+    "language": "en",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5618542349:AAHWVwRikHLZluE6JoWOBuElwCtaqRw1R5E",
+    "chat": "-1001882288272",
+    "replyTo": ""
+  }
+}

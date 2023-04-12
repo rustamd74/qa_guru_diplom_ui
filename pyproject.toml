@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qa-guru-diplom-ui"
+version = "0.1.0"
+description = ""
+authors = ["Rustam Dzhafarov <rustamd74@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qa_guru_diplom_ui"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.5"
+pytest = "^7.2.0"
+selene = "^2.0.0b17"
+python-dotenv = "^0.21.0"
+allure-pytest = "^2.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
